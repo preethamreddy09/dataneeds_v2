@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataNeeds — Structured Data Marketplace</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <img src="logo.svg" alt="DataNeeds" style="height:50px;">
+      </a>
+      <div class="nav-links">
+        <a href="data.html">Data &amp; Samples</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <p class="eyebrow">Data marketplace</p>
+    <h1>Structured niche datasets for researchers, developers, and platforms</h1>
+    <p class="hero-sub">We collect, clean, and structure hard-to-find data from across the web — coins, birds, trading cards, antiques, and more. Browse datasets below or contact us with your requirement.</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="num" id="stat-sources">—</span><span class="label">Data sources</span></div>
+      <div class="divider-v"></div>
+      <div class="stat"><span class="num">500K+</span><span class="label">Total records</span></div>
+      <div class="divider-v"></div>
+      <div class="stat"><span class="num">Weekly</span><span class="label">Update frequency</span></div>
+    </div>
+    <div class="hero-btns">
+      <a href="data.html" class="btn-primary">Browse datasets</a>
+      <a href="data.html#samples" class="btn-ghost">View sample data</a>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ── -->
+  <div style="background:#fafafa; border-bottom:1px solid #e0e0e0;">
+    <div style="max-width:900px; margin:0 auto; padding:28px 24px; display:flex; align-items:flex-start; gap:32px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:180px; display:flex; gap:14px; align-items:flex-start;">
+        <div style="flex-shrink:0; width:32px; height:32px; border-radius:50%; border:1px solid #e0e0e0; background:#fff; display:flex; align-items:center; justify-content:center; font-size:14px; color:#1a56a0;">&#9740;</div>
+        <div>
+          <div style="font-size:13px; font-weight:600; color:#111; margin-bottom:3px;">Collect</div>
+          <div style="font-size:12px; color:#666; line-height:1.5;">We gather raw data from verified public and proprietary sources across the web.</div>
+        </div>
+      </div>
+      <div style="color:#ccc; font-size:18px; padding-top:6px;">&#8594;</div>
+      <div style="flex:1; min-width:180px; display:flex; gap:14px; align-items:flex-start;">
+        <div style="flex-shrink:0; width:32px; height:32px; border-radius:50%; border:1px solid #e0e0e0; background:#fff; display:flex; align-items:center; justify-content:center; font-size:14px; color:#1a56a0;">&#9998;</div>
+        <div>
+          <div style="font-size:13px; font-weight:600; color:#111; margin-bottom:3px;">Clean &amp; structure</div>
+          <div style="font-size:12px; color:#666; line-height:1.5;">Every record is normalised, deduplicated, and validated for consistency.</div>
+        </div>
+      </div>
+      <div style="color:#ccc; font-size:18px; padding-top:6px;">&#8594;</div>
+      <div style="flex:1; min-width:180px; display:flex; gap:14px; align-items:flex-start;">
+        <div style="flex-shrink:0; width:32px; height:32px; border-radius:50%; border:1px solid #e0e0e0; background:#fff; display:flex; align-items:center; justify-content:center; font-size:14px; color:#1a56a0;">&#8595;</div>
+        <div>
+          <div style="font-size:13px; font-weight:600; color:#111; margin-bottom:3px;">Deliver</div>
+          <div style="font-size:12px; color:#666; line-height:1.5;">Receive CSV or JSON files on a one-time or recurring schedule.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── PRICING ── -->
+  <section class="section" id="pricing">
+    <h2>Pricing</h2>
+    <p class="section-sub">Simple, transparent pricing. All plans include CSV and JSON delivery.</p>
+    <div class="ds-grid">
+
+      <div class="ds-card">
+        <div class="ds-head">
+          <span class="ds-name">Sample</span>
+          <span class="ds-badge india">Free</span>
+        </div>
+        <p class="ds-desc">See exactly what you are getting before you commit.</p>
+        <div style="font-size:12px; color:#666; line-height:1.8; margin-bottom:14px;">
+          &#10003; Up to 50 rows per dataset<br>
+          &#10003; CSV or JSON format<br>
+          &#10003; Delivered within 24 hours<br>
+          &#10003; One dataset per request
+        </div>
+        <div class="ds-meta" style="border-top:1px solid #eee; padding-top:10px;">
+          <a href="#contact" class="btn-ghost" style="font-size:12px; padding:6px 14px; width:100%; text-align:center;">Request sample</a>
+        </div>
+      </div>
+
+      <div class="ds-card" style="border-color:#1a56a0; box-shadow:0 2px 8px rgba(26,86,160,0.08);">
+        <div class="ds-head">
+          <span class="ds-name">One-time</span>
+          <span class="ds-badge world">Popular</span>
+        </div>
+        <p class="ds-desc">Full dataset export for a project or research requirement.</p>
+        <div style="font-size:12px; color:#666; line-height:1.8; margin-bottom:14px;">
+          &#10003; Complete dataset (all records)<br>
+          &#10003; CSV and JSON both included<br>
+          &#10003; Custom filters on request<br>
+          &#10003; Delivered within 48 hours
+        </div>
+        <div class="ds-meta" style="border-top:1px solid #eee; padding-top:10px;">
+          <a href="#contact" class="btn-primary" style="font-size:12px; padding:6px 14px; width:100%; text-align:center;">Get a quote</a>
+        </div>
+      </div>
+
+      <div class="ds-card">
+        <div class="ds-head">
+          <span class="ds-name">Subscription</span>
+          <span class="ds-badge ancient">Recurring</span>
+        </div>
+        <p class="ds-desc">Stay up-to-date with weekly or monthly dataset refreshes.</p>
+        <div style="font-size:12px; color:#666; line-height:1.8; margin-bottom:14px;">
+          &#10003; Weekly or monthly updates<br>
+          &#10003; Delta files (new records only)<br>
+          &#10003; Priority support<br>
+          &#10003; Custom delivery schedule
+        </div>
+        <div class="ds-meta" style="border-top:1px solid #eee; padding-top:10px;">
+          <a href="#contact" class="btn-ghost" style="font-size:12px; padding:6px 14px; width:100%; text-align:center;">Contact us</a>
+        </div>
+      </div>
+
+    </div>
+    <p style="font-size:13px; color:#666; margin-top:16px;">All pricing is negotiated based on dataset size and update frequency. <a href="#contact">Get in touch</a> and we will reply within 24 hours.</p>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="section" id="contact">
+    <h2>Get in touch</h2>
+    <p class="section-sub">Tell us which dataset you need, your preferred format (CSV or JSON), and how often you need updates. We reply within 24 hours.</p>
+    <form class="contact-form" action="https://formspree.io/f/mnjrjdov" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="John Smith" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="dataset">Dataset you are interested in</label>
+        <select id="dataset-select" name="dataset">
+          <option value="">Select a dataset</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Your requirement</label>
+        <textarea id="message" name="message" rows="5" placeholder="Describe what you need — volume, format (CSV/JSON), update frequency, specific filters, or any other details..." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary">Send message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p><strong>DataNeeds</strong> &mdash; structured data marketplace</p>
+    <p><a href="mailto:hello@dataneeds.in">hello@dataneeds.in</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

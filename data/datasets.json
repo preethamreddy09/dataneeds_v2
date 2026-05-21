@@ -1,0 +1,195 @@
+[
+  {
+    "id": "oswal",
+    "name": "Oswal Auctions",
+    "category": "Numismatics",
+    "badge": "India",
+    "description": "Realized prices from one of India's leading coin auction houses. Covers ancient, medieval, and modern Indian coinage.",
+    "record_count": "45,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/oswal_sample.csv",
+    "columns": ["Image", "Lot", "Category", "Metal", "Description", "Estimate (₹)", "Sold (₹)"],
+    "rows": [
+      ["https://oswal.auction/AucLots/135/2.jpg", "2", "Ancient: Punch Marked", "Silver", "Vidarbha Janapada, Silver ½ Karshapana, 1.67g — About uncirculated.", "8,000–10,000", "9,000"],
+      ["https://oswal.auction/AucLots/135/6.jpg", "6", "Ancient: Post Mauryan", "Copper", "Central Malwa, Uninscribed Cast Copper, 1.49g — Very fine.", "2,000–2,500", "2,200"],
+      ["https://oswal.auction/AucLots/135/8.jpg", "8", "Ancient: Baktrian Greeks", "Copper", "Bactrian Greeks, Diodotos, Copper, 2.44g — Very fine+, rare.", "3,000–4,000", "9,000"],
+      ["https://oswal.auction/AucLots/135/11.jpg", "11", "Ancient: Baktrian Greeks", "Bronze", "Bactrian Greeks, Euthydemos I, Bronze, 9.90g — Extremely fine, rare.", "6,000–7,000", "8,000"],
+      ["https://oswal.auction/AucLots/135/13.jpg", "13", "Ancient: Baktrian Greeks", "Bronze", "Bactrian Greeks, Demetrios I, Bronze, 6.40g — About extremely fine, very rare.", "7,000–8,000", "38,500"]
+    ]
+  },
+  {
+    "id": "jain",
+    "name": "Jain Auctions",
+    "category": "Numismatics",
+    "badge": "India",
+    "description": "Lot-level auction results from Jain's India coin sales. Covers ancient, medieval, and modern Indian coinage.",
+    "record_count": "38,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/jain_sample.csv",
+    "columns": ["Image", "Lot", "Period", "Material", "Description", "Estimate (₹)", "Sold (₹)"],
+    "rows": [
+      ["https://jah-auction-images.s3.ap-south-1.amazonaws.com/product/thumbnail/auction/1/1.webp", "1", "Ancient India", "Silver", "Gandhara Janapada (c. 600–300 BC), Silver Shatamana, 11.56g — Very Fine.", "4,000–4,500", "5,000"],
+      ["https://jah-auction-images.s3.ap-south-1.amazonaws.com/product/thumbnail/auction/1/2.webp", "2", "Ancient India", "Silver", "Gandhara Janapada (c. 600–400 BC), Silver ⅛ Shatamana, 1.00g — Very Fine.", "800–1,000", "1,000"],
+      ["https://jah-auction-images.s3.ap-south-1.amazonaws.com/product/thumbnail/auction/1/3.webp", "3", "Ancient India", "Silver", "Shakya Janapada (c. 600–500 BC), Silver 5 Shana, 6.56g — Fine+.", "5,000–5,500", "6,000"],
+      ["https://jah-auction-images.s3.ap-south-1.amazonaws.com/product/thumbnail/auction/1/5.webp", "5", "Ancient India", "Silver", "Magadha Mahajanapada (c. 600–400 BC), Silver Karshapana, 3.05g — Extremely Fine.", "3,500–4,000", "3,700"],
+      ["https://jah-auction-images.s3.ap-south-1.amazonaws.com/product/thumbnail/auction/1/10.webp", "10", "Ancient India", "Silver", "Magadha Janapada (600–400 BC), Silver Karshapana, 2.90g — Extremely Fine.", "1,200–1,500", "3,700"]
+    ]
+  },
+  {
+    "id": "ics",
+    "name": "Indian Coins & Stamps",
+    "category": "Numismatics",
+    "badge": "India",
+    "description": "Indian coin catalog with current prices. Covers commemorative and standard circulation issues.",
+    "record_count": "22,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/ics_sample.csv",
+    "columns": ["Image", "Product name", "Category", "Price"],
+    "rows": [
+      ["https://indiancoinsandstamps.com/wp-content/uploads/2026/01/IMG20260314201829_merged-597x336.jpg", "5 Paise 1976 Food & Work For All Hyderabad Aluminium", "5 Paise–Commemorative", "₹200"],
+      ["https://indiancoinsandstamps.com/wp-content/uploads/2022/01/IMG20250129213525_merged-597x336.jpg", "5 Paise 1976 Food & Work For All Kolkata Aluminium", "5 Paise–Commemorative", "₹175"],
+      ["https://indiancoinsandstamps.com/wp-content/uploads/2020/06/IMG20250128185856_merged-597x336.jpg", "5 Paise 1976 Food & Work For All Mumbai Aluminium", "5 Paise–Commemorative", "₹75"],
+      ["https://indiancoinsandstamps.com/wp-content/uploads/2021/04/IMG20250810134941_merged-597x336.jpg", "10 Paise 1974 Planned Families – Food For All Hyderabad", "10 Paise–Commemorative", "₹5,000"],
+      ["https://indiancoinsandstamps.com/wp-content/uploads/2022/07/IMG20260314201514_merged-597x336.jpg", "10 Paise 1974 Planned Families – Food For All Kolkata", "10 Paise–Commemorative", "₹100"]
+    ]
+  },
+  {
+    "id": "pcgs",
+    "name": "PCGS",
+    "category": "Numismatics",
+    "badge": "World",
+    "description": "Graded coin prices, auction records, and population data. US and world coins with estimated values by grade.",
+    "record_count": "120,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/pcgs_sample.csv",
+    "columns": ["Image", "PCGS #", "Name", "Year", "Material", "Auction Record (USD)", "Grade", "Auctioneer"],
+    "rows": [
+      ["https://images.pcgs.com/CoinFacts/25685771_46522295_800x800.jpg", "880", "Fugio 1C — Cross after Date, BN", "1787", "Copper", "$15,275", "AU55", "Stack's Bowers"],
+      ["https://images.pcgs.com/CoinFacts/46412476_243792714_800x800.jpg", "883", "Fugio 1C — States United, 4 Cinq, BN", "1787", "Other", "$28,800", "MS66BN", "Stack's Bowers"],
+      ["https://images.pcgs.com/CoinFacts/12525462_247060981_800x800.jpg", "871", "Fugio 1C — American Congress Newman 1-CC, BN", "1787", "Copper", "$63,800", "AU50", "Bowers & Merena"],
+      ["https://images.pcgs.com/CoinFacts/42464209_218081162_800x800.jpg", "877", "Fugio 1C — Cross after Date Raised Rims, BN", "1787", "Copper", "$55,813", "MS64", "Heritage Auctions"],
+      ["https://images.pcgs.com/CoinFacts/61477694_291944367_800x800.jpg", "907", "Fugio 1C — Club Rays, FUCIO, BN", "1787", "Other", "$35,250", "XF40", "Heritage Auctions"]
+    ]
+  },
+  {
+    "id": "numista",
+    "name": "Numista",
+    "category": "Numismatics",
+    "badge": "World",
+    "description": "World coin catalog with specifications, mintage figures, composition, dimensions, and past sales.",
+    "record_count": "200,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/numista_sample.csv",
+    "columns": ["Image", "N#", "Issuer", "Years", "Value", "Composition", "Weight", "Diameter", "Rarity"],
+    "rows": [
+      ["https://en.numista.com/catalogue/photos/france/11234-original.jpg", "1", "France", "1962–2001", "1 Centime", "Stainless steel", "1.65 g", "15 mm", "3"],
+      ["https://en.numista.com/catalogue/photos/france/5f9dd6203f3f57.28774259-original.jpg", "10", "France", "1992–2001", "20 Francs", "Trimetallic", "9 g", "27 mm", "4"],
+      ["https://en.numista.com/catalogue/photos/danemark/2972-original.jpg", "1000", "Denmark", "1960–1972", "5 Øre", "Bronze", "6 g", "24 mm", "3"],
+      ["https://en.numista.com/catalogue/photos/tonga/696b9e2c6d2b82.47245019-original.jpg", "10000", "Tonga", "1975–1978", "50 Seniti", "Copper-nickel", "14.6 g", "32.5 mm", "21"],
+      ["https://en.numista.com/catalogue/photos/vatican/5f7538cba33d88.53001569-original.jpg", "10001", "Vatican City", "2008–2013", "2 Euros", "Bimetallic", "8.5 g", "25.75 mm", "13"]
+    ]
+  },
+  {
+    "id": "zeno",
+    "name": "Zeno",
+    "category": "Numismatics",
+    "badge": "Ancient",
+    "description": "Ancient and medieval world coin listings with context, material, weight, and mint location.",
+    "record_count": "60,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/zeno_sample.csv",
+    "columns": ["Image", "Name", "Currency", "Material", "Weight (g)", "Mint", "Year"],
+    "rows": [
+      ["https://www.zeno.ru/data/3708/medium/zeno_377458.jpeg", "MT Thaler restrike — Wien 1780", "Thaler", "AR", "27.95", "Wien", "1795–1803"],
+      ["https://www.zeno.ru/data/22830/medium/zeno_377455.jpg", "Japan Shima-Sen, unknown find site", "Wen", "Bronze", "2.84", "—", "1338–1573"],
+      ["https://www.zeno.ru/data/22263/medium/zeno_377359.jpg", "Ilkhans, Anonymous, AR Dirham", "Dirham", "AR", "2.25", "MM", "?"],
+      ["https://www.zeno.ru/data/8454/medium/zeno_377356.jpg", "Abbasid AR Dirham — al-Amin, 194 AH", "Dirham", "AR", "3.02", "Madinat Marw", "194 AH"],
+      ["https://www.zeno.ru/data/19365/medium/zeno_377353.jpg", "Babur, AR Shahrukhi — Qunduz AH933", "Shahrukhi", "AR", "—", "Qunduz", "AH933"]
+    ]
+  },
+  {
+    "id": "sedwick",
+    "name": "Sedwick",
+    "category": "Numismatics",
+    "badge": "World",
+    "description": "Latin American and world shipwreck coin auction results with hammer prices and descriptions.",
+    "record_count": "32,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/sedwick_sample.csv",
+    "columns": ["Image", "Lot", "Category", "Title", "Estimate (USD)", "Hammer (USD)", "Sold (USD)"],
+    "rows": [
+      ["https://dygtyjqp7pi0m.cloudfront.net/i/77642/59770205_1.jpg?v=8DEADCB4CBCD840", "1665", "Cobs – Gold", "SPAIN, Seville, gold cob 2 escudos, Philip III", "$2,500–$3,750", "$3,500", "$4,200"],
+      ["https://dygtyjqp7pi0m.cloudfront.net/i/77642/59770206_1.jpg?v=8DEADCB583B3270", "1666", "Shipwreck Ingots", "Lot of tiny nuggets, 0.37g, ex-1715 Fleet", "$70–$100", "$525", "$630"],
+      ["https://dygtyjqp7pi0m.cloudfront.net/i/77642/59770217_1.jpg?v=8DEADCBD8A2BFA0", "1677", "Shipwreck Coins", "SPAIN, Seville, cob 8 reales, Philip II", "$125–$200", "$400", "$480"],
+      ["https://dygtyjqp7pi0m.cloudfront.net/i/77642/59770218_1.jpg?v=8DEADCBEAE4F930", "1678", "Shipwreck Coins", "SPAIN, Seville, cob 2 reales, Philip II", "$150–$225", "$700", "$840"],
+      ["https://dygtyjqp7pi0m.cloudfront.net/i/77642/59770228_1.jpg?v=8DEADCC83E7CF90", "1688", "Shipwreck Coins", "MEXICO, Mexico City, cob 8 reales, Philip IV", "$200–$300", "$450", "$540"]
+    ]
+  },
+  {
+    "id": "vauctions",
+    "name": "Vauctions",
+    "category": "Numismatics",
+    "badge": "Ancient",
+    "description": "Online auction results for ancient world coins — Greek, Roman, Islamic, and more.",
+    "record_count": "28,000+",
+    "formats": "CSV / JSON",
+    "sample_file": "samples/vauctions_sample.csv",
+    "columns": ["Image", "Lot", "Title", "Auction", "Price (USD)", "Status"],
+    "rows": [
+      ["https://rainworx.s3.amazonaws.com/1714157/E48-G055TN.jpg", "1", "KINGS of LYDIA, temp. Ardys–Alyattes, Ca. 630s–564/53 BC. AV Trite", "Pars Coins eSale #48", "$500", "Sold"],
+      ["https://rainworx.s3.amazonaws.com/1714157/E48-G003TN.jpg", "3", "KINGS of MACEDON, Alexander III. 336–323 BC. AR Drachm", "Pars Coins eSale #48", "$75", "Sold"],
+      ["https://rainworx.s3.amazonaws.com/1714157/E48-G029TN.jpg", "7", "MACEDON, Interregnum. Anonymous issue. Circa 288–277 BC.", "Pars Coins eSale #48", "$50", "Sold"],
+      ["https://rainworx.s3.amazonaws.com/1714157/E48-G033TN.jpg", "19", "PTOLEMAIC KINGS of EGYPT, Ptolemy I. 305–282 BC.", "Pars Coins eSale #48", "$27", "Sold"],
+      ["https://rainworx.s3.amazonaws.com/1714157/E48-G005TN.jpg", "27", "SELEUKID KINGS, Seleukos IV Philopator, 187–175 BC.", "Pars Coins eSale #48", "$50", "Sold"]
+    ]
+  },
+{
+  "id": "birds",
+  "name": "Birds — Taxonomy & Observations",
+  "category": "Natural History",
+  "badge": "Global",
+  "description": "Bird taxonomy, conservation status, morphological data, behavioral traits, and LLM-enriched descriptions across thousands of species.",
+  "record_count": "10,000+",
+  "formats": "CSV / JSON",
+  "sample_file": "samples/birds_sample.csv",
+  "columns": ["Image", "Common Name", "Scientific Name", "Family", "Conservation Status", "Habitat", "Migratory Status", "Mass (g)", "Wing Length (mm)", "Trophic Level"],
+  "rows": [
+    ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Melanochlora_sultanea_sultanea%2C_Latpanchar%2C_Darjeeling%2C_India_1.jpg/250px-Melanochlora_sultanea_sultanea%2C_Latpanchar%2C_Darjeeling%2C_India_1.jpg", "Sultan Tit", "Melanochlora sultanea", "Paridae", "Least Concern", "Forest", "Not a migrant", "37.6", "106.3", "Carnivore"],
+    ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fulmar_prion.jpg/250px-Fulmar_prion.jpg", "Fulmar Prion", "Pachyptila crassirostris", "Procellariidae", "Least Concern", "Marine", "Full migrant", "138.3", "182.0", "Carnivore"],
+    ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Podiceps_occipitalis_103079512.jpg/250px-Podiceps_occipitalis_103079512.jpg", "Northern Silvery Grebe", "Podiceps juninensis", "Podicipedidae", "Near Threatened", "Wetland", "Not a migrant", "320.7", "126.7", "Carnivore"],
+    ["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Geotrygon_caniceps.jpg/250px-Geotrygon_caniceps.jpg", "Gray-fronted Quail-Dove", "Geotrygon caniceps", "Columbidae", "Vulnerable", "Forest", "Not a migrant", "192.0", "148.6", "Omnivore"],
+    ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Geotrygon_montana_-_Ruddy_Quail-Dove%2C_Trememb%C3%A9%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/250px-Geotrygon_montana_-_Ruddy_Quail-Dove%2C_Trememb%C3%A9%2C_S%C3%A3o_Paulo%2C_Brazil.jpg", "Ruddy Quail-Dove", "Geotrygon montana", "Columbidae", "Least Concern", "Forest", "Nomadic", "133.9", "136.5", "Herbivore"]
+  ]
+},
+{
+  "id": "pokemon",
+  "name": "Pokemon TCG — Card Prices",
+  "category": "Trading Cards",
+  "badge": "Global",
+  "description": "Pokemon Trading Card Game cards with graded prices, sales volume, rarity, attacks, abilities, and set information.",
+  "record_count": "50,000+",
+  "formats": "CSV / JSON",
+  "sample_file": "samples/pokemon_sample.csv",
+  "columns": ["Image", "Name", "Set", "Number", "Rarity", "HP", "Type", "Ungraded Price", "Grade 8", "Grade 9", "PSA 10"],
+  "rows": [
+    ["https://images.pokemontcg.io/base1/1.png", "Alakazam", "Base", "#1", "Rare Holo", "80", "Psychic", "$29.99", "$115.14", "$610.75", "-"],
+    ["https://images.pokemontcg.io/base1/2.png", "Blastoise", "Base", "#2", "Rare Holo", "100", "Water", "$155.00", "$390.21", "$805.00", "-"],
+    ["https://images.pokemontcg.io/base1/3.png", "Chansey", "Base", "#3", "Rare Holo", "120", "Colorless", "$19.99", "$311.18", "$1,809.73", "-"],
+    ["https://images.pokemontcg.io/base1/4.png", "Charizard", "Base", "#4", "Rare Holo", "120", "Fire", "$450.00", "$1,472.72", "$1,555.91", "-"],
+    ["https://images.pokemontcg.io/base1/5.png", "Clefairy", "Base", "#5", "Rare Holo", "40", "Colorless", "$17.00", "$401.65", "$549.40", "-"],
+    ["https://images.pokemontcg.io/base1/6.png", "Gyarados", "Base", "#6", "Rare Holo", "100", "Water", "$15.13", "$128.22", "$230.63", "-"]
+  ]
+},
+  {
+    "id": "antiques",
+    "name": "Antiques — Ecommerce Listings",
+    "category": "Antiques",
+    "badge": "Global",
+    "description": "Structured antique listings from major ecommerce platforms including prices, descriptions, and seller data.",
+    "record_count": "Coming soon",
+    "formats": "CSV / JSON",
+    "sample_file": null,
+    "columns": [],
+    "rows": []
+  }
+]
